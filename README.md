@@ -1,2 +1,1 @@
-# playwright-locator-finder
-playwright-locator-finder
+This is a chrome extension that helps in finding robust Playwright selectors for any web element with real-time testing.

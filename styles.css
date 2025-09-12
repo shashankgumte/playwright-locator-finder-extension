@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  button {
+    background: #4cafef;
+    border: none;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #results {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .locator-highlight {
+    outline: 2px solid red !important;
+    background-color: rgba(255, 0, 0, 0.1) !important;
+  }
+
+.locator-evaluator {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 999999;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.locator-evaluator textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-family: monospace;
+  resize: vertical;
+}
+
+.locator-evaluator .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.locator-evaluator button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #2196F3;
+  color: white;
+}
+
+.locator-evaluator button:hover {
+  background: #1976D2;
+}
+
+.locator-evaluator .results {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.locator-highlight {
+  outline: 2px solid #2196F3 !important;
+  outline-offset: 2px !important;
+}
+
+.match-highlight {
+  outline: 2px solid #4CAF50 !important;
+  outline-offset: 2px !important;
+}
